@@ -1,11 +1,18 @@
-<div align="center">
+# Gestão Matriz RACI - Jurídico
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Este projeto é uma plataforma de organização de demandas jurídicas utilizando a Matriz RACI.
 
-  <h1>Built with AI Studio</h2>
+## Como implantar na Vercel via GitHub
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **Crie um repositório no GitHub** e suba todos os arquivos deste projeto.
+2. **Acesse o painel da Vercel** (vercel.com).
+3. **Importe o repositório** que você acabou de criar.
+4. **Configurações de Projeto**:
+   - O Framework Preset deve ser detectado automaticamente como **Vite**.
+   - O Build Command deve ser `npm run build`.
+   - O Output Directory deve ser `dist`.
+5. **Variáveis de Ambiente**:
+   - Se você estiver usando a API do Gemini, adicione a variável `GEMINI_API_KEY` com o seu valor nas configurações de "Environment Variables" da Vercel.
+6. **Clique em Deploy**.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+O arquivo `vercel.json` já está incluído para garantir que as rotas do React funcionem corretamente (SPA routing).
